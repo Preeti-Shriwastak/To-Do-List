@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.to-do-app{
+    background: linear-gradient(135deg, #304775, #260230);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-do{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(216, 196, 236);
+    border-radius: 20px;
+}
+.to-do-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.to-do-title>h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom:15px ;
+    padding: 10px;
+}
+.to-do-title>h1>img{
+    width: 25px;
+    margin-top: 0px;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box>input {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-do-form>::placeholder{
+    font-size: 20px;
+}
+.btn{
+   flex-grow: 0.5;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cc50ee;
+    margin: 15px 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.5s;
+    background-color: #7a3c8b;
+    color:#fff ;
+}
+/* #card>h2{
+    font-size: 25px;
+    color: rgb(98, 95, 95);
+    margin-bottom: 15px;
+} */
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#card>p{
+    background-color: #e481e8;
+    color: #222222;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin: 10px auto 10px;
+    height: 30px;
+    width: 350px;
+}
+#card>p>button{
+    width: 33px;
+    height: 33px;
+    background-color:#cf61ee;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: none;
+    padding: 5px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+
+}
+#card>p>button:hover{
+    background-color: #67197d;
+    transition: 0.7;
+}
+.form-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    /* visibility: hidden; */
+}
+.form-edit>input{
+    margin: auto;
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
